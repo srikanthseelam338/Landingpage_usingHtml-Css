@@ -1,0 +1,446 @@
+*{
+
+    padding: 
+    }
+    header{
+        background-color: white;
+        height: 70px;
+        display: flex;
+        text-align: center;
+        width: 100%;
+    
+        
+    }
+    header img{
+        width: 15%;
+    }
+    #block1{
+        
+        width: 100%;
+        height: 100px;
+    padding: 5px;
+    margin: 3px;
+    
+    
+    }
+    #block1 nav ul {
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 20px;
+        margin-left:  97px;
+        padding: 15px;
+        margin-left: 23px;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+        color: black;
+        
+    }
+    nav ul li:hover{
+        transition: 0.7 ease in all 0.7s;
+        cursor: pointer;
+        transform: translate(-50%-50%);
+        background-color:yellowgreen;
+        border-radius: 55px;
+        box-shadow: 0 0 10px #2196f3,0 0 10px#2196f3;
+      
+      
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body{
+            background-color:cyan;
+            color: white;
+        }
+        #navbar{
+            width: 100%;
+            height: 60px;
+            background-color: white;
+        }
+        #navbar nav{
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            height: 60px;
+        }
+        #navbar nav >ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            list-style: none;
+        }
+        #navbar nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+        padding:  20px;
+        }
+        #navbar nav ul ul{
+        background-color: blue;
+        list-style: none;
+        width: 248px;
+        position: absolute;
+        top: 60px;
+        border-top: 1px solid black;
+        display: none;
+        }
+        #navbar nav ul ul li a{
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solod orange;
+        }
+        
+        #navbar nav ul li a:hover{
+            background-color: white;
+            color: black;
+        }
+        
+        #navbar nav ul li:hover>ul{
+            display: block;
+        }
+    /*---drop box end here-----*/
+     article{
+         background-color: #4c374d;
+         color: white;
+         width: 33.33%;
+         text-align: justify;
+         padding: 20px;
+         border: 3px solid cyan;
+         border-radius: 7px;
+         margin: 10px;
+     }
+     article:hover{
+         transform: scale(1.1);
+     }
+     #as1{
+         
+         color:black;
+         width: 33.33%;
+         margin: 10px;
+         text-align: justify;
+         padding: 20px;
+         border: 3px solid cyan;
+         border-radius: 7px;
+         
+     }
+     #as1:hover{
+        transform: scale(1.1);
+    }
+     #as2{
+        background-color:lightblue;
+        
+        width: 33.33%;
+        border: 3px solid cyan;
+        text-align: justify;
+         padding: 20px;
+         margin: 10px;
+     }
+     #as2:hover{
+        transform: scale(1.1);
+    }
+     section{
+         display: flex;
+        top: 0;
+        
+     }
+     article h1{
+         text-align: center;
+         text-decoration: underline;
+         color: orange;
+     }
+     #as1 h1{
+         text-align: center;
+         color:orange;
+         font-weight: bolder;
+         font-size: 20px;
+         text-decoration: underline;
+     }
+     #as1 h3{
+         background-color: lightgray;
+         font-weight: lighter;
+     }
+     #as2{
+         text-align: center;
+         background-color: white;
+         border: 3px solid cyan;
+         border-radius: 7px;
+     }
+     #as2 h2{
+         background-color:seagreen;
+         color: white;
+         font-size: 15px;
+         padding: 6px;
+     }
+     #as2 button{
+         background-color: yellowgreen;
+         color: white;
+         border-radius: 5px;
+     }
+     #as2 h1{
+         text-align: center;
+         font-weight: bold;
+         font-size: 20px;
+         text-decoration: underline;
+         color: orange;
+     }
+     #rd{
+         background-color:white;
+         
+     }
+     
+     .ra{border-radius: 5px;
+         margin-right: 10px;
+         background-color: white;
+         border: 3px solid cyan;
+         text-align: center
+         
+     }
+     .ra:hover{
+        transform: scale(1.1);
+    }
+     .rs{border-radius: 5px;
+         margin-right: 10px;
+        border: 3px solid cyan;
+        text-align: center;
+    }
+    .rs:hover{
+        transform: scale(1.1);
+    }
+    .rs2{border-radius: 5px;
+        margin-right: 10px;
+        border: 3px solid cyan;
+        text-align: center;
+    }
+    .rs2:hover{
+        transform: scale(1.1);
+    }
+    .rs3{border-radius: 5px;
+        margin-right: 10px;
+    
+        border: 3px solid cyan;
+        text-align: center;
+        
+    }
+    .rs3:hover{
+        transform: scale(1.1);
+    }
+    .rs4:hover{
+        transform: scale(1.1);
+    }
+    .rs4{border-radius: 5px;
+        margin-right: 10px;
+        border: 3px solid cyan;
+        text-align: center;
+        
+    }
+    .rs5:hover{
+        transform: scale(1.1);
+    }
+    .rs5{border-radius: 5px;
+        margin-right: 10px;
+        border: 3px solid cyan;
+        text-align: center;
+        
+    }
+    .ra h1{
+        text-transform: capitalize;
+        font-size: 20.5px;
+        background-color: seagreen;
+        padding: 5px;
+        margin: 0%;
+    }
+    .rs h1{
+        background-color: seagreen;
+        padding: 5px;
+        margin: 0%;
+    }
+    .rs2 h1{
+        background-color: seagreen;
+        padding: 5px;
+        margin: 0%;
+    }
+    .rs3 h1{
+        background-color: seagreen;
+        padding: 5px;
+        margin: 0%;
+    }
+    .rs4 h1{
+        background-color: seagreen;
+        padding: 5px;
+        margin: 0%;
+    }
+    .rs5 h1{
+        background-color: seagreen;
+        padding: 5px;
+        margin: 0%;
+    }
+    /*---body complete--*/
+    /*---div starts--*/
+    section{
+        
+        width: 100%;
+        text-align: center;
+    
+    }
+    .y1{
+      background-color: coral; 
+      margin: 0%;
+      text-align: center;
+      width: 100%;
+    }
+    #z1{
+        text-align: center;
+        margin-left: 18%;
+        border: 3px solid cyan;
+    }
+    #z1:hover{
+        transform: scale(1.3);
+    }
+    #z1 h3{
+        color: orange;
+    }
+    /*---div end here--*/
+    /*---button box start here--*/
+    .l1{text-align: justify;
+        margin: 10px;
+        width: 33.33%;
+        background-color: white;
+        border: 3px solid cyan;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .l1:hover{
+        transform: scale(1.1);
+    }
+    .l1 h1{
+        background-color: cyan;
+        margin: 0%;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 3px;
+    }
+    .o1{text-align: justify;
+        margin: 10px;
+        width: 33.33%;
+        background-color: white;
+        border: 3px solid cyan;
+        height: 250px;
+    border-radius: 5px;
+    }
+    .o1:hover{
+        transform: scale(1.1);
+    }
+    .o1 h1{
+        background-color: cyan;
+        margin: 0%; 
+        padding: 3px;
+        font-size: 20px;
+    }
+    .sree:hover{
+        transform: scale(1.1);
+    }
+    .sree{text-align: justify;
+        height: 250px;
+        margin: 10px;
+        width: 33.33%;
+        background-color: white;
+        border: 3px solid cyan;
+        border-radius:5px
+        
+        
+    }
+    .sree h1{
+        background-color: cyan;
+        margin: 0%; 
+        padding: 3px;
+        font-size: 20px;
+        
+    } 
+    .one #ek{
+        padding: 6px;
+       font-size: 10px;
+       width: 33.33%;
+       margin: 0px;
+       float: left;
+       color: white;
+       background-color: green;
+       }
+       .one #do{color: white;
+           background-color: green;
+           float: left;
+        padding: 6px;
+        font-size: 10px;
+        width: 33.33%
+        
+       }
+       .one #theen{
+           float: left;
+        padding: 6px;
+        font-size: 10px;
+        width: 33.33%;
+        background-color: green;
+        color: white;
+    
+       }
+    /*---box end here--*/
+    #noshi{text-align: justify;
+        
+        margin: 10px;
+        height: 250px;
+        margin: 10px;
+        width: 31.5%;
+        background-color: white;
+        border: 3px solid cyan;
+        border-radius:5px
+         
+    }
+    #noshi:hover{
+        transform: scale(1.1);
+    }
+    #raj{text-align: justify;
+        margin: 10px;
+        height: 250px;
+        
+        width: 31.5%;
+        background-color: white;
+        border: 3px solid cyan;
+        border-radius:5px
+        
+    }
+    #raj:hover{
+        transform: scale(1.1);
+    }
+    #raj h1{
+        margin: 0%;
+        background-color: cyan;
+        font-size: 20px;
+    }
+    #noshi h1{
+        margin: 0%;
+        background-color: cyan; 
+        font-size: 20px;
+    }
+    #foot a{
+        text-decoration: underline;
+        font-size: 20px;
+        color: crimson
+        
+        
+    }
+    #foot a button{
+    background-color: blue;
+    color: white;
+    }
